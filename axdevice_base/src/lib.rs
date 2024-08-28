@@ -10,10 +10,7 @@ use memory_addr::AddrRange;
 
 // TODO: support vgicv2
 // pub(crate) mod emu_vgicdv2;
-mod emu_config_notuse;
 mod emu_type;
-mod emu_vgicdv2;
-pub use emu_vgicdv2::EmuVgicdV2;
 // pub use emu_config_notuse::EmulatedDeviceConfig;
 pub use emu_type::EmuDeviceType;
 
