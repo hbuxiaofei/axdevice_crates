@@ -6,7 +6,8 @@ extern crate alloc;
 extern crate log;
 
 use axerrno::AxResult;
-use memory_addr::{AddrRange,GuestPhysAddr};
+use axaddrspace::GuestPhysAddr;
+use memory_addr::AddrRange;
 
 // TODO: support vgicv2
 // pub(crate) mod emu_vgicdv2;
